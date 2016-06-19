@@ -1,0 +1,30 @@
+[
+    {
+        "name": "RegistrationService.Register",
+        "params": {
+            "token": "XNKCNlRTrTcREyVFlmltAWAvOdcrJwszqaaJWijMURyGDvTMAJ",
+            "botname": "WordSmith",
+            "botversion": "1.0.0",
+            "game": "SCRABBLE",
+            "rpcendpoint": "http://myurl.com/path/to/prc/endpoint",
+            "programminglanguage": "Python",
+            "website": "http://github.com/mleonard87/myfirstbot",
+            "description": "A simple algorithm that picks randomly from the available spaces."
+        },
+        "returns": {
+            "message": "Hello, Mikes First Bot, good luck with Tic-Tac-Toe!"
+        }
+    },
+    {
+        "name": "Scrabble.Ready",
+        "params": {
+            "gameid": 7,
+            "gameboard": "d34898ec4cadc2b7b85da262e9320a9646655931",
+            "dictionary": "caf2417c1d9fc2f2512922ae0514ebbc151fe789",
+            "letters": "76d20712668ae0eb85d825b93acb71875a059a00"
+        },
+        "returns": {
+            "status": "OK"
+        }
+    }
+]
