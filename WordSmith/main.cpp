@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     HttpServer httpServer(8080);
     WordSmithBot bot(httpServer, JSONRPC_SERVER_V2);
     
-    bot.StartBot("10.0.0.32", "abcdefghijklmnopqrstuvwxyz");
+    bot.StartBot("10.0.0.32", "SlyO2HvTRXMXw2D1VnWbcuzKWdbk2wGbaywab5cYYBgwYj1mux");
     
     bot.StartListening();
     
